@@ -11,3 +11,21 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+  position: sticky;
+  bottom: 0;
+}
+
+nav {
+  flex-shrink: none;
+  position: sticky;
+  top: 0;
+}

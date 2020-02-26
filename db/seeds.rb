@@ -11,7 +11,7 @@ Restaurant.destroy_all
 puts 'OK'
 
 print 'Seeding restaurants...'
-6.times do
+20.times do
   restaurant = Restaurant.create!(
     name: Faker::Restaurant.name,
     address: Faker::Address.full_address,

@@ -1,3 +1,6 @@
-<h1><%= @restaurant.name %></h1>
-<p><%= @restaurant.address %></p>
+<h1>Restaurant <%= @restaurant.name %></h1>
 <p><%= @restaurant.category %></p>
+
+<p>📍 <%= @restaurant.address %></p>
+
+<%= render 'reviews/index', reviews: @restaurant.reviews %>
